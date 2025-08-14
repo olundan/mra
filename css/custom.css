@@ -53,7 +53,7 @@ em {
   font-style: italic;
 }
 
-#test {
+.hero-image {
     object-fit: cover;
     height: 100vh;
     width: 100%;
@@ -86,6 +86,7 @@ em {
 .menu a:hover {
     color: #ddd;
 }
+
 .hero-image-text {
   position: absolute;
   align: center;
@@ -96,3 +97,4 @@ em {
   left: 20%;
 
 }
+ 
