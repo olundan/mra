@@ -87,11 +87,14 @@ em {
     color: #ddd;
 }
 .hero_image_text {
-  width: calc(400px + 10vw);
   position: absolute;
-  top: 10%;
+  align: center;
+  width:30vw;
+  min-width:200px;
+  max-width: 600px;
+  top: 20%;
   left: 20%;
-  position: left;
+  
     }
 
 .hero-text-overlay_image {
