@@ -86,8 +86,15 @@ em {
 .menu a:hover {
     color: #ddd;
 }
+.hero_image_text {
+  width: calc(400px + 10vw);
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  position: left;
+    }
 
-.hero-text-overlay {
+.hero-text-overlay_image {
   position: absolute;
   top: 35%;
   left: 40%;
@@ -99,7 +106,7 @@ em {
   font-weight:24px bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   font-weight: bold;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
 .hero-container {
