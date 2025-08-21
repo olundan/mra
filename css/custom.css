@@ -20,21 +20,33 @@ h1 {
   font-size: 2em;
   font-weight: bold;
   margin: 0.5em 0;
+  margin-top: 50px;
 }
 
-h2, h3 {
+h2 {
   font-size: 1.8em;
   font-weight: bold;
   margin: 0.5em 0;
+  margin-top: 50px;
   color: white;
   text-align: left;
 }
+
+h3 {
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px, 0px;
+  color: white;
+  text-align: left;
+  padding: 
+  }
 
 p {
   margin: 1em 0;
   color: white;
   font-size: 18px;
   text-align: left;
+  line-height: 1.5;
 }
 
 a {
@@ -98,4 +110,37 @@ em {
   left: 20%;
 
 }
- 
+
+.sub-content {
+    margin-top: 60px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  padding:10px;
+  border: 1px solid white;
+  color: white;
+}
+
+#review-button {
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0.5em 0;
+    margin-top: 50px;
+}
+
+#book-now-button {
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 2px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+#recensioner > p {
+    margin: 100px;
+    font-size: 24px;
+}
