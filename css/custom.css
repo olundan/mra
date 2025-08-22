@@ -158,6 +158,10 @@ em {
     }
 }
 
+input {
+    display:none;
+}
+
 .hero-image-text {
     position: absolute;
     align: center;
