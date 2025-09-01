@@ -206,3 +206,14 @@ th, td {
 margin: 100px;
 font-size: 24px;
 }
+*/
+
+#mail-link {
+    color: white;
+    text-decoration: underline;
+    }
+
+#flag {
+    position: float, right;
+    font-size: 1.2em;
+    }
